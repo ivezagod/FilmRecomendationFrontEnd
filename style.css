@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    background-color: #1E1A24;
+    font-family: 'Montserrat';
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0,0.6);
+  z-index: 4;
+}
+
+.lightbox {
+  max-width: 1000px;
+  background-color: #1E1A24;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+
+
+ 
+}
+
+.description {
+  display: block;
+  padding: 10px;
+
+}
+
+.lightbox img {
+  width: 100%;
+  height: 500px;
+  z-index: 5;
+  border-radius: 10px;
+}
+.lightbox h3 {
+  color: white;
+}
+.hidden {
+  display: none;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
+
+.filmContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 10px;
+  
+  
+
+  }
+
+  .singleFilm img {
+    border-radius: 10px;
+  }
+
+  .titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  h2 {
+    color: white;
+    margin-left: 40px;
+  }
+  .singleFilm {
+    color: white;
+  }
+  
+  img {
+    height: 220px;
+    width:390px ;
+  }
+  
+
+  
+  
+
+  
+  h1 {
+      text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+
+ .lightbox div {
+  display: flex;
+  justify-content: space-around;
+ }
+ .lightbox h4 {
+  font-size: 18px;
+  bottom: 5px;
+  position: relative;
+ }
+
+  
+
+
+ 
+
+  .close {
+    content: url(images/cancel.png);
+    width: 16px;
+    position: relative;
+    left: 960px;
+    top:-540px;
+    display: block;
+  }
+
+
+
+  @media(max-width: 1000px) {
+    h2 {
+      text-align: center;
+      margin-right: 50px;
+    }
+    .lightbox {
+      max-width: 700px;
+      min-height:700px;
+      background-color: #1E1A24;
+      margin: 30px auto;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+    }
+    .lightbox img {
+      width: 100%;
+      height: 500px;
+      z-index: 5;
+      border-radius: 10px;
+    }
+    .close {
+      content: url(images/cancel.png);
+      width: 16px;
+      position: relative;
+      left: 660px;
+      top:-540px;
+      display: block;
+    }
+  }
+
+  @media(max-width: 700px) {
+    .lightbox {
+      max-width: 500px;
+      min-height:700px;
+      background-color: #1E1A24;
+      margin: 30px auto;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+    }
+    .lightbox img {
+      width: 100%;
+      height: 500px;
+      z-index: 5;
+      border-radius: 10px;
+    }
+    .close {
+      content: url(images/cancel.png);
+      width: 16px;
+      position: relative;
+      left: 470px;
+      top:-560px;
+      display: block;
+    }
+    .description {
+      margin-top: -30px;
+    }
+  }
+
+  @media (max-width:500px){
+    img {
+      width: 300px;
+    }
+    .lightbox {
+      max-width: 380px;
+      min-height:100px;
+      background-color: #1E1A24;
+      margin: 100px auto;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+    }
+    .lightbox img {
+      width: 100%;
+      height: 300px;
+      z-index: 5;
+      border-radius: 10px;
+    }
+    .close {
+      content: url(images/cancel.png);
+      width: 16px;
+      position: relative;
+      left: 359px;
+      top:-359px;
+      display: block;
+    }
+    .description {
+      margin-top: -30px;
+    }
+  }
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navFooter.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="slider.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Light Box -->
+    <div class="overlay hidden">
+      <div class="lightbox">
+        <img src="" alt="" />
+        <div>
+          <h3></h3>
+          <h4></h4>
+        </div>
+        <span class="close"></span>
+        <span class="description"></span>
+      </div>
+    </div>
+    <!-- navigation -->
+    <div class="expandColor">
+      <div class="container">
+        <nav class="navigation">
+          <div class="logo">
+            <a href="./index.html"
+              >Faketli<img src="images/logo.jpg" alt=""
+            /></a>
+            <div class="burgerMenu">
+              <a id="logoWithBurger" href="#"
+                >Faketli<img src="images/logo.jpg" alt=""
+              /></a>
+              <img class="menu" src="/images/menu.png" alt="" />
+            </div>
+          </div>
+
+          <a href="./index.html">Home</a>
+          <a href="./horor.html">Horor</a>
+          <a href="comedy.html">Comedy</a>
+          <a href="anime.html">Anime</a>
+          <a href="action.html">Action</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="linksForBurger hidden">
+      <a href="./index.html">Home</a>
+      <a href="./horor.html">Horor</a>
+      <a href="comedy.html">Comedy</a>
+      <a href="anime.html">Anime</a>
+      <a href="action.html">Action</a>
+    </div>
+
+    <!-- image Slider -->
+    <div>
+      <div class="sliderContainer">
+        <button id="leftBtn"><span></span></button>
+        <div class="sliderView">
+          <div class="imageContainer" style="left: -300px">
+            <img id="first" src="./images/fastAndFurios.jpg" alt="fas" />
+            <img id="second" src="./images/itClown.jpg" alt="" />
+            <img id="third" src="./images/Berserk.jpg" alt="" />
+          </div>
+        </div>
+        <button id="rightBtn"><span></span></button>
+      </div>
+    </div>
+
+    <!-- main-section -->
+    <section class="container">
+      <h2>Best films</h2>
+
+      <div class="filmContainer">
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+
+      <h2>Top hits</h2>
+      <div class="filmContainer">
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+
+      <h2>Trending now</h2>
+      <div class="filmContainer">
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+        <div class="singleFilm">
+          <img src="" alt="" />
+          <h3></h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="expandColor">
+      <footer class="container">
+        <div class="footer">
+          <p>email: Faketlix@gmail.com</p>
+          <p>2023&copy;</p>
+          <p>
+            <img src="/images/instagram.png" alt="" />
+            <img src="/images/twitter.png" alt="" />
+            <img src="/images/facebook.png" alt="" />
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
